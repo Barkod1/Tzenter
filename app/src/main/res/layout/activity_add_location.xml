@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Input row layout -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="שם בית הכנסת"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="פרטים: נוסח, פירוט המקום, הקהילה וכו'"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:id="@+id/input_row_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/name_input1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="תפילה" />
+
+        <Button
+            android:id="@+id/btnSelectFirst"
+            android:layout_width="102dp"
+            android:layout_height="95dp"
+            android:background="@android:color/transparent"
+            android:foreground="@drawable/hour" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="102dp"
+            android:layout_height="77dp"
+            android:background="@android:color/transparent"
+            android:foreground="@drawable/add" />
+
+    </LinearLayout>
+
+    <!-- Input rows container -->
+    <LinearLayout
+        android:id="@+id/input_rows_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp" />
+
+    <ImageButton
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/upload"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/upload"
+        android:visibility="visible"
+        tools:src="@drawable/upload"
+        tools:visibility="visible" />
+
+</LinearLayout>

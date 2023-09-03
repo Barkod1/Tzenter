@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="title_text_view" type="id" />
+    <item name="details_text_view" type="id" />
+    <item name="btnEnter1" type="id" />
+</resources>

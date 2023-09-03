@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "47211680257",
+    "firebase_url": "https://necneset1-default-rtdb.firebaseio.com",
+    "project_id": "necneset1",
+    "storage_bucket": "necneset1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47211680257:android:8cfe4d4c96f5cfaab2e600",
+        "android_client_info": {
+          "package_name": "com.example.necneset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47211680257-hb7ukadkdsi1bbugbr0c4sjriholm6f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUYe4uCBZB-p9mf-qqu5lL-TTgcV4VgDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47211680257-hb7ukadkdsi1bbugbr0c4sjriholm6f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

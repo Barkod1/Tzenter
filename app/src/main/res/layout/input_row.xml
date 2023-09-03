@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="261dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="תפילה"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSelectHour"
+        android:layout_width="71dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/hour" />
+
+    <Button
+        android:id="@+id/remove_button"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/delete"/>
+
+
+</LinearLayout>
