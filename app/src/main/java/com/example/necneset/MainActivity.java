@@ -36,7 +36,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 
-//API key: AIzaSyCPfEX73247s3bIXPbZAjoZN3E9y9uP12Y
     public class MainActivity extends AppCompatActivity {
         private static final int RC_SIGN_IN = 1680898298;
         private GoogleSignInClient mGoogleSignInClient;
